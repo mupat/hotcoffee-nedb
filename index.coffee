@@ -21,7 +21,6 @@ class Plugin extends EventEmitter
   registerEvents: ->
     @app.on 'POST', (resource, data) =>
       data.resource = resource
-
       @db.insert data, (err, docs) =>
         return @emit 'error', err if err?
         @emit 'info', "new document inserted", docs
