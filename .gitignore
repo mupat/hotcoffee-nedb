@@ -26,3 +26,8 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+hotcoffee.db
+.DS_Store
+cov.html
+.coveralls.yml

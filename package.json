@@ -1,0 +1,37 @@
+{
+  "name": "hotcoffee-nedb",
+  "version": "0.0.1",
+  "description": "Database plugin for hotcoffee using nedb",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mupat/hotcoffee-nedb.git"
+  },
+  "keywords": [
+    "hotcoffee",
+    "plugin",
+    "nedb"
+  ],
+  "author": "Mupat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mupat/hotcoffee-nedb/issues"
+  },
+  "homepage": "https://github.com/mupat/hotcoffee-nedb",
+  "dependencies": {
+    "hotcoffee": "^0.1.2",
+    "nedb": "^1.1.1",
+    "coffee-script": "^1.9.1"
+  },
+  "devDependencies": {
+    "coffee-coverage": "^0.4.5",
+    "coveralls": "^2.11.2",
+    "mocha": "^2.2.1",
+    "mocha-lcov-reporter": "0.0.2",
+    "should": "^5.2.0",
+    "sinon": "^1.14.1"
+  }
+}
